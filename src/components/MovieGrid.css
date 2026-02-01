@@ -1,0 +1,18 @@
+.moviegrid { max-width: 1100px; margin: 44px auto 60px; padding: 0 24px; animation: fadeIn 0.4s var(--ease); }
+.moviegrid__heading { font-family: var(--font-display); font-size: 1.35rem; font-weight: 400; color: var(--white-secondary); letter-spacing: 0.04em; margin-bottom: 22px; display: flex; align-items: center; gap: 8px; }
+.moviegrid__heading-accent { color: var(--pink-light); font-size: 0.85rem; text-shadow: 0 0 8px var(--pink-glow-strong); }
+.moviegrid__cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+.moviegrid__cards > :nth-child(1)  { animation-delay: 0.05s; }
+.moviegrid__cards > :nth-child(2)  { animation-delay: 0.10s; }
+.moviegrid__cards > :nth-child(3)  { animation-delay: 0.15s; }
+.moviegrid__cards > :nth-child(4)  { animation-delay: 0.20s; }
+.moviegrid__cards > :nth-child(5)  { animation-delay: 0.25s; }
+.moviegrid__cards > :nth-child(6)  { animation-delay: 0.30s; }
+.moviegrid__cards > :nth-child(7)  { animation-delay: 0.35s; }
+.moviegrid__cards > :nth-child(8)  { animation-delay: 0.40s; }
+.moviegrid__cards > :nth-child(9)  { animation-delay: 0.45s; }
+.moviegrid__cards > :nth-child(10) { animation-delay: 0.50s; }
+.moviegrid--empty { text-align: center; padding: 60px 20px; }
+.moviegrid__empty-text, .moviegrid__error { font-family: var(--font-body); font-size: 0.88rem; font-weight: 300; color: var(--white-muted); letter-spacing: 0.06em; }
+.moviegrid__error { color: #d4736a; }
+.moviegrid--loading { display: flex; justify-content: center; align-items: center; min-height: 200px; }
